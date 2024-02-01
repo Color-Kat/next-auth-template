@@ -1,12 +1,11 @@
-import {NextPage} from 'next';
+import { NextPage } from 'next';
+import { LoginForm } from "@/components/auth/LoginForm";
 
 const LoginPage: NextPage = ({}) => {
-    
+
     return (
-        <div className="">
-            LoginPage
-        </div>
+        <LoginForm />
     );
 };
 
-export default LoginPage
+export default LoginPage;
